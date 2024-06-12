@@ -1,0 +1,101 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("Images/stadium.jpg") ;    
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+header {
+    background-color: transparent;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 img {
+    height: 90px;
+    margin-right: 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px;
+   
+    
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+   
+}
+
+.hero img {
+    width: 50%;
+    margin: 20px auto;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00bfff;
+    color: white;
+    text-decoration: none;
+    border-radius: 10%;
+}
+
+.about {
+    padding: 40px;
+}
+
+.about h3 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    
+}
+
+footer {
+    background-color: transparent;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+footer a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #f9f0f0;
+    
+}
+.social-icons{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    margin-bottom: 30px;
+    align-items: c;
+}
+
+.social-icons > div{
+   max-width: 100px;
+  width: 20%;
+
+}
+
+.social-icons a img{
+    border-radius: 50%;
+}
+
+
+
+/* Sources: */
+/* 1. https://medium.com/samsung-internet-dev/making-an-ar-game-with-aframe-529e03ae90cb */
